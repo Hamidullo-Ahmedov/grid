@@ -57,34 +57,34 @@
           overridden.
         </p>
         <div class="row mt-5 mb-4 text-center">
-          <div class="col-4">.col-4</div>
-          <div class="col-4">.col-4</div>
-          <div class="col-4">.col-4</div>
+          <div class="col-4 bg-info">.col-4</div>
+          <div class="col-4 bg-warning">.col-4</div>
+          <div class="col-4 bg-success">.col-4</div>
         </div>
         <div class="row mb-4 text-center">
-          <div class="col-sm-4">.col-sm-4</div>
-          <div class="col-sm-4">.col-sm-4</div>
-          <div class="col-sm-4">.col-sm-4</div>
+          <div class="col-sm-4 bg-info">.col-sm-4</div>
+          <div class="col-sm-4 bg-warning">.col-sm-4</div>
+          <div class="col-sm-4 bg-success">.col-sm-4</div>
         </div>
         <div class="row mb-4 text-center">
-          <div class="col-md-4">.col-md-4</div>
-          <div class="col-md-4">.col-md-4</div>
-          <div class="col-md-4">.col-md-4</div>
+          <div class="col-md-4 bg-info">.col-md-4</div>
+          <div class="col-md-4 bg-warning">.col-md-4</div>
+          <div class="col-md-4 bg-success">.col-md-4</div>
         </div>
         <div class="row mb-4 text-center">
-          <div class="col-lg-4">.col-lg-4</div>
-          <div class="col-lg-4">.col-lg-4</div>
-          <div class="col-lg-4">.col-lg-4</div>
+          <div class="col-lg-4 bg-info">.col-lg-4</div>
+          <div class="col-lg-4 bg-warning">.col-lg-4</div>
+          <div class="col-lg-4 bg-success">.col-lg-4</div>
         </div>
         <div class="row mb-4 text-center">
-          <div class="col-xl-4">.col-xl-4</div>
-          <div class="col-xl-4">.col-xl-4</div>
-          <div class="col-xl-4">.col-xl-4</div>
+          <div class="col-xl-4 bg-info">.col-xl-4</div>
+          <div class="col-xl-4 bg-warning">.col-xl-4</div>
+          <div class="col-xl-4 bg-success">.col-xl-4</div>
         </div>
         <div class="row mb-4 text-center">
-          <div class="col-xxl-4">.col-xxl-4</div>
-          <div class="col-xxl-4">.col-xxl-4</div>
-          <div class="col-xxl-4">.col-xxl-4</div>
+          <div class="col-xxl-4 bg-info">.col-xxl-4</div>
+          <div class="col-xxl-4 bg-warning">.col-xxl-4</div>
+          <div class="col-xxl-4 bg-success">.col-xxl-4</div>
         </div>
       </div>
     </section>
@@ -104,9 +104,9 @@
           devices, tablets and below, the columns will automatically stack.
         </p>
         <div class="row my-4 text-center">
-          <div class="col-md-4">col-md-4</div>
-          <div class="col-md-4">col-md-4</div>
-          <div class="col-md-4">col-md-4</div>
+          <div class="col-md-4 bg-info">col-md-4</div>
+          <div class="col-md-4 bg-warning">col-md-4</div>
+          <div class="col-md-4 bg-success">col-md-4</div>
         </div>
         <h2>
           Three equal columns alternative
@@ -115,9 +115,9 @@
           By using the <code>.row-cols-*</code> classes, you can easily create a grid with equal columns.
         </p>
         <div class="row row-cols-md-3 mb-4 text-center">
-          <div class="col"><code>.col</code> child of <code>.row-cols-md-3</code></div>
-          <div class="col"><code>.col</code> child of <code>.row-cols-md-3</code></div>
-          <div class="col"><code>.col</code> child of <code>.row-cols-md-3</code></div>
+          <div class="col bg-danger"><code>.col</code> child of <code>.row-cols-md-3</code></div>
+          <div class="col bg-warning"><code>.col</code> child of <code>.row-cols-md-3</code></div>
+          <div class="col bg-primary"><code>.col</code> child of <code>.row-cols-md-3</code></div>
         </div>
         <h2>
           Three unequal columns
@@ -128,9 +128,9 @@
           that, and columns start stacking no matter the viewport.
         </p>
         <div class="row mb-4 text-center">
-          <div class="col-md-3">col-md-3</div>
-          <div class="col-md-6">col-md-6</div>
-          <div class="col-md-3">col-md-3</div>
+          <div class="col-md-3 bg-primary">col-md-3</div>
+          <div class="col-md-6 bg-success">col-md-6</div>
+          <div class="col-md-3 bg-danger">col-md-3</div>
         </div>
         <h2>
           Two columns
@@ -139,8 +139,8 @@
           Get two columns <strong>starting at desktops and scaling to large desktops.</strong>
         </p>
         <div class="row mb-4 text-center">
-          <div class="col-md-8">col-md-8</div>
-          <div class="col-md-4">col-md-4</div>
+          <div class="col-md-8 bg-secondary">col-md-8</div>
+          <div class="col-md-4 bg-primary">col-md-4</div>
         </div>
         <h2>
           Full width, single column
@@ -156,9 +156,156 @@
 
     <!-- nested secction starts -->
 
-    
+    <section>
+      <div class="container">
+        <h2>
+          Two columns with two nested columns
+        </h2>
+        <p>
+          Per the documentation, nesting is easy—just put a row of columns within an existing column. This 
+          gives you two columns <strong>starting at desktops and scaling to large desktops</strong>, with 
+          another two (equal widths) within the larger column.
+        </p>
+        <p>
+          At mobile device sizes, tablets and down, these columns and their nested columns will stack.
+        </p>
+        <div class="row text-center">
+          <div class="col-md-8 text-center bg-primary">
+            .col-md-8
+            <div class="row text-center">
+              <div class="col-md-6 bg-success">.col-md-6</div>
+              <div class="col-md-6 bg-danger">.col-md-6</div>
+            </div>
+          </div>
+          <div class="col-md-4 bg-warning">.col-md-4</div>
+        </div>
+        <hr>
+      </div>
+    </section>
 
     <!-- nested secction ends -->
+
+    <!-- responsive section starts -->
+
+    <section>
+      <div class="container">
+        <h2>
+          Mixed: mobile and desktop
+        </h2>
+        <p>
+          The Bootstrap v5 grid system has six tiers of classes: xs (extra small, this class infix is not 
+          used), sm (small), md (medium), lg (large), xl (x-large), and xxl (xx-large). You can use nearly 
+          any combination of these classes to create more dynamic and flexible layouts.
+        </p>
+        <p>
+          Each tier of classes scales up, meaning if you plan on setting the same widths for md, lg, xl and 
+          xxl, you only need to specify md.
+        </p>
+        <div class="row text-center mb-3">
+          <div class="col-md-8 bg-secondary">
+            .col-md-8
+          </div>
+          <div class="col-md-4 bg-light">
+            .col-6 .col-md-4
+          </div>
+        </div>
+        <div class="row row-cols-md-3 text-center mb-3">
+          <div class="col bg-light">.col-6 .col-md-4</div>
+          <div class="col bg-warning">.col-6 .col-md-4</div>
+          <div class="col bg-success">.col-6 .col-md-4</div>
+        </div>
+        <div class="row row-cols-2 text-center">
+          <div class="col bg-danger">.col-6</div>
+          <div class="col bg-info">.col-6</div>
+        </div>
+        <hr>
+        <h2>
+          Mixed: mobile, tablet, and desktop
+        </h2>
+        <div class="row text-center mb-3">
+          <div class="col-sm-6 .col-lg-8 bg-success">.col-sm-6 .col-lg-8</div>
+          <div class="col-sm-6 .col-lg-8 bg-warning">.col-6 .col-lg-4</div>
+        </div>
+        <div class="row text-center">
+          <div class="col-6 col-sm-4 bg-danger">.col-6 .col-sm-4</div>
+          <div class="col-6 col-sm-4 bg-warning">.col-6 .col-sm-4</div>
+          <div class="col-6 col-sm-4 bg-success">.col-6 .col-sm-4</div>
+        </div>
+        <hr>
+      </div>
+    </section>
+
+    <!-- responsive section ends -->
+
+    <!-- gutters section starts -->
+
+    <section>
+      <div class="container">
+        <h2>
+          Gutters
+        </h2>
+        <p>
+          With <code>.gx-*</code> classes, the horizontal gutters can be adjusted.
+        </p>
+        <div class="row row-cols-sm-1 row-cols-md-3 gx-4 text-center mb-4">
+          <div class="col bg-info"> <code>.col</code> with <code>.gx-4</code> gutters</div>
+          <div class="col bg-light"> <code>.col</code> with <code>.gx-4</code> gutters</div>
+          <div class="col bg-warning"> <code>.col</code> with <code>.gx-4</code> gutters</div>
+          <div class="col bg-info"> <code>.col</code> with <code>.gx-4</code> gutters</div>
+          <div class="col bg-light"> <code>.col</code> with <code>.gx-4</code> gutters</div>
+          <div class="col bg-warning"> <code>.col</code> with <code>.gx-4</code> gutters</div>
+        </div>
+        <p>
+          Use the <code>.gy-*</code> classes to control the vertical gutters.
+        </p>
+        <div class="row row-cols-sm-1 row-cols-md-3 gy-4 text-center mb-4">
+          <div class="col bg-info"> <code>.col</code> with <code>.gx-4</code> gutters</div>
+          <div class="col bg-light"> <code>.col</code> with <code>.gx-4</code> gutters</div>
+          <div class="col bg-warning"> <code>.col</code> with <code>.gx-4</code> gutters</div>
+          <div class="col bg-info"> <code>.col</code> with <code>.gx-4</code> gutters</div>
+          <div class="col bg-light"> <code>.col</code> with <code>.gx-4</code> gutters</div>
+          <div class="col bg-warning"> <code>.col</code> with <code>.gx-4</code> gutters</div>
+        </div>
+        <p>
+          With <code>.g-*</code> classes, the gutters in both directions can be adjusted.
+        </p>
+        <div class="row row-cols-sm-1 row-cols-md-3 g-4 text-center mb-4">
+          <div class="col bg-info"> <code>.col</code> with <code>.gx-4</code> gutters</div>
+          <div class="col bg-light"> <code>.col</code> with <code>.gx-4</code> gutters</div>
+          <div class="col bg-warning"> <code>.col</code> with <code>.gx-4</code> gutters</div>
+          <div class="col bg-info"> <code>.col</code> with <code>.gx-4</code> gutters</div>
+          <div class="col bg-light"> <code>.col</code> with <code>.gx-4</code> gutters</div>
+          <div class="col bg-warning"> <code>.col</code> with <code>.gx-4</code> gutters</div>
+        </div>
+        <hr>
+      </div>
+    </section>
+
+    <!-- gutters section ends -->
+
+    <!-- containers section starts -->
+
+    <section>
+        <div class="container">
+          <h2>
+            Containers
+          </h2>
+          <p>
+            Additional classes added in Bootstrap v4.4 allow containers that are 100% wide until a 
+            particular 
+            breakpoint. v5 adds a new <code>xxl</code> breakpoint.
+          </p>
+        </div>
+        <div class="container text-center text-white py-3 mb-3 bg-secondary">.container</div>
+        <div class="container-sm text-center text-white py-3 mb-3 bg-secondary">.container-sm</div>
+        <div class="container-md text-center text-white py-3 mb-3 bg-secondary">.container-md</div>
+        <div class="container-lg text-center text-white py-3 mb-3 bg-secondary">.container-lg</div>
+        <div class="container-xl text-center text-white py-3 mb-3 bg-secondary">.container-xl</div>
+        <div class="container-xxl text-center text-white py-3 mb-3 bg-secondary">.container-xxl</div>
+        <div class="container-fruid text-center text-white py-3 mb-3 bg-secondary">.container-fruid</div>
+    </section>
+
+    <!-- containers section ends -->
 
     
 
